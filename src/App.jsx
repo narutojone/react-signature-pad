@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import SignaturePad from './component/index.jsx';
-
+import SignaturePad from './component/SignaturePad/index.jsx';
 
 class App extends Component {
   render() {
     return (
-      <div className="sigCanvas">
-        <SignaturePad clearButton="true" penColor="grey"/>
-      </div>
+      <SignaturePad
+        width={1000}
+        height={800}
+        penColor="red"
+      />
     );
   }
 }

@@ -5,6 +5,9 @@
       "jsx": true
     }
   },
+  "globals": {
+    "$": true    
+  },
   "env": {
     "browser": true,
     "node": true
